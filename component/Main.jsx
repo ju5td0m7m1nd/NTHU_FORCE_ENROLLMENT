@@ -102,6 +102,8 @@ export default class Nav extends React.Component {
       </section> :
       <section className="web-container" style={styles.container}>
         <div className="form" style={styles.formContainer}>
+          學校擋了qq
+        {/*
           { this.state.loading ? <LinearProgress mode="indeterminate" /> : '' } 
           <TextField
             floatingLabelText="Account"
@@ -131,6 +133,7 @@ export default class Nav extends React.Component {
             onClick={this.submit}
             style={styles.input}
           />
+        */}
         </div>
       </section>
       }
